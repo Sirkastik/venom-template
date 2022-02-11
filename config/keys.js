@@ -1,4 +1,5 @@
+// Beware: Put these values in a .env file because they need to be secret
 module.exports = {
-    mongoURI : 'mongodb+srv://rio:omwanatom@mernproject.hnog9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-    JWT_KEY : "jsonWebTokenKey"
+    mongoURI : 'mongodb+srv://username:password@mongoURI',
+    JWT_KEY : "yourJWTkey"
 }
